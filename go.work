@@ -1,6 +1,7 @@
 go 1.21.5
 
 use (
+	./01arrays
 	./01conversion
 	./01hello
 	./01mytime
