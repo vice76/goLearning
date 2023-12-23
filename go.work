@@ -6,6 +6,7 @@ use (
 	./01hello
 	./01mytime
 	./01pointers
+	./01slices
 	./01userinput
 	./01variables
 )
