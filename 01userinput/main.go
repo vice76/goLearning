@@ -18,4 +18,7 @@ func main() {
 	//no try catch
 	input, _ := reader.ReadString('\n')
 	fmt.Println("output is ", input)
+
+	// type of input is string , good to know , even when user gives a int value .
+	fmt.Printf("type of input variable is %T", input)
 }
