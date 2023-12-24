@@ -10,6 +10,7 @@ use (
 	./01pointers
 	./01slices
 	./01structs
+	./01switchcase
 	./01userinput
 	./01variables
 )
