@@ -4,6 +4,7 @@ use (
 	./01arrays
 	./01conversion
 	./01hello
+	./01maps
 	./01mytime
 	./01pointers
 	./01slices
