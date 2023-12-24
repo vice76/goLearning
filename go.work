@@ -8,6 +8,7 @@ use (
 	./01mytime
 	./01pointers
 	./01slices
+	./01structs
 	./01userinput
 	./01variables
 )
