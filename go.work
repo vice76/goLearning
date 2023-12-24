@@ -5,6 +5,7 @@ use (
 	./01conversion
 	./01hello
 	./01ifelse
+	./01loops
 	./01maps
 	./01mytime
 	./01pointers
