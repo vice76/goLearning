@@ -8,6 +8,7 @@ use (
 	./01ifelse
 	./01loops
 	./01maps
+	./01methods
 	./01mytime
 	./01pointers
 	./01slices
