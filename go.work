@@ -4,6 +4,7 @@ use (
 	./01arrays
 	./01conversion
 	./01defer
+	./01file
 	./01functions
 	./01hello
 	./01ifelse
