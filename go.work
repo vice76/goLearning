@@ -16,6 +16,7 @@ use (
 	./01slices
 	./01structs
 	./01switchcase
+	./01urls
 	./01userinput
 	./01variables
 	./01webrequest
