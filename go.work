@@ -18,4 +18,5 @@ use (
 	./01switchcase
 	./01userinput
 	./01variables
+	./01webrequest
 )
