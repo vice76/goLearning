@@ -12,6 +12,7 @@ use (
 	./01loops
 	./01maps
 	./01methods
+	./01mymodules
 	./01mytime
 	./01pointers
 	./01slices
