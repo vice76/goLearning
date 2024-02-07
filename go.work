@@ -1,26 +1,27 @@
 go 1.21.5
 
 use (
-	./01arrays
-	./01bitmorejson
-	./01conversion
-	./01defer
-	./01file
-	./01functions
-	./01hello
-	./01ifelse
-	./01loops
-	./01maps
-	./01methods
-	./01mymodules
-	./01mytime
-	./01pointers
-	./01slices
-	./01structs
-	./01switchcase
-	./01urls
-	./01userinput
-	./01variables
-	./01webrequest
-	./01webreqverbs
+	// ./01arrays
+	// ./01bitmorejson
+	./01buildapi
+// ./01conversion
+// ./01defer
+// ./01file
+// ./01functions
+// ./01hello
+// ./01ifelse
+// ./01loops
+// ./01maps
+// ./01methods
+// ./01mymodules
+// ./01mytime
+// ./01pointers
+// ./01slices
+// ./01structs
+// ./01switchcase
+// ./01urls
+// ./01userinput
+// ./01variables
+// ./01webrequest
+// ./01webreqverbs
 )
