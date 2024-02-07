@@ -4,6 +4,7 @@ use (
 	// ./01arrays
 	// ./01bitmorejson
 	./01buildapi
+	./01mongoapi
 // ./01conversion
 // ./01defer
 // ./01file
