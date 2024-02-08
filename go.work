@@ -3,7 +3,7 @@ go 1.21.5
 use (
 	// ./01arrays
 	// ./01bitmorejson
-	./01buildapi
+	// ./01buildapi
 	./01mongoapi
 // ./01conversion
 // ./01defer
