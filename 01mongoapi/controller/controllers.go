@@ -95,3 +95,27 @@ func deleteAllRecord() int64 {
 	fmt.Println("Deleted record", result.DeletedCount)
 	return result.DeletedCount
 }
+
+//read all records
+
+func getAllMovies() []primitive.M {
+	//Passing the bson.D{{}} as the filter matches  documents in the collection
+	result, err := collection.Find(context.Background(), bson.D{{}})
+	if err != nil {
+		log.Fatal(err)
+	}
+	var movies []primitive.M
+
+	for result.Next(context.Background()) {
+		var movie bson.M
+		err := result.Decode(&movie)
+		if err != nil {
+			log.Fatal(err)
+		}
+		movies = append(movies, movie)
+	}
+
+	defer result.Close(context.Background())
+	fmt.Println("Toatl no of records")
+	return movies
+}
